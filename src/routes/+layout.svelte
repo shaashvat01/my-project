@@ -1,31 +1,37 @@
 <script>
-    import { page } from '$app/stores';
+  import { page } from '$app/stores';
 </script>
 
-<nav class="bg-blue-600 p-4 shadow-md">
-  <ul class="text-white flex justify-center space-x-8">
-    <li><a href="/" class="text-white hover:underline">Home</a></li>
-    <li><a href="/blog" class="text-white hover:underline">Blog </a></li>
-    <li><a href="/resources" class="text-black hover:underline">Resources </a></li>
-  </ul>
+<nav class="navbar w-full bg-white p-4 shadow-md flex justify-center">
+<ul class="nav-links flex space-x-8">
+  <li><a href="/" class="nav-link">Home</a></li>
+  <li><a href="/blog" class="nav-link">Blog</a></li>
+  <li><a href="/resources" class="nav-link">Resources</a></li>
+</ul>
 </nav>
 
 <main>
-  <slot />
+<slot />
 </main>
 
 <style>
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  nav li {
-    display: inline;
-  }
-  nav a {
-    text-decoration: none;
-  }
+nav {
+  width: 100%;
+}
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.25rem; 
+  margin-right: 2rem;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
 </style>
