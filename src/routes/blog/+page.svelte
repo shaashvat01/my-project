@@ -14,7 +14,7 @@
             <img src="/alps.jpg" alt="Alps" class="w-full h-full object-cover"/>
           </div>
         </div>
-        <a href="" class="text-blue-600 hover:underline" target="_blank">Read more</a>
+        <a href="/blog/alps" class="text-blue-600 hover:underline">Read more</a>
       </li>
 
       <li class="flex-1 min-w-[250px] mb-4 p-4 bg-white shadow-md rounded-lg">
@@ -25,7 +25,7 @@
             <img src="/bali.jpg" alt="Bali" class="w-full h-full object-cover"/>
           </div>
         </div>
-        <a href="" class="text-blue-600 hover:underline" target="_blank">Read more</a>
+        <a href="/blog/bali" class="text-blue-600 hover:underline">Read more</a>
       </li>
 
       <li class="flex-1 min-w-[250px] mb-4 p-4 bg-white shadow-md rounded-lg">
@@ -36,7 +36,7 @@
             <img src="/tokyo.jpg" alt="Tokyo" class="w-full h-full object-cover"/>
           </div>
         </div>
-        <a href="" class="text-blue-600 hover:underline" target="_blank">Read more</a>
+        <a href="/blog/tokyo" class="text-blue-600 hover:underline">Read more</a>
       </li>
     </ul>
   </div>
