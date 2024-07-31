@@ -7,7 +7,7 @@
     <h1 class="text-4xl font-bold mb-6 text-center">My Blogs</h1>
     <ul class="flex flex-wrap justify-between gap-6">
       <li class="flex-1 min-w-[250px] mb-4 p-4 bg-white shadow-md rounded-lg">
-        <h2 class="text-2xl font-bold">Exploring the Alps</h2>
+        <h2 class="text-2xl font-bold">Swiss Alps</h2>
         <p>A breathtaking journey through the Swiss Alps...</p>
         <div class="flex justify-center">
           <div class="w-[300px] h-[200px] overflow-hidden rounded-lg shadow-md">
