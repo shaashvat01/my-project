@@ -1,5 +1,9 @@
 <script>
   export let data;
+
+  function goBack() {
+    window.history.back();
+  }
 </script>
 
 <style>
@@ -25,6 +29,22 @@
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .back-button:hover {
+    background-color: #0056b3;
+  }
 </style>
 
 <div class="blog-detail">
@@ -44,3 +64,5 @@
   <img src="/alps4.jpg" alt="Lake Geneva" class="w-full h-auto"/>
   <p>Throughout the journey, I had the opportunity to experience the warm hospitality of the Swiss people, taste delicious local cuisine, and immerse myself in the rich cultural heritage of the region. The Swiss Alps truly offer an unparalleled travel experience that leaves you with memories to cherish for a lifetime. From savoring traditional Swiss dishes like fondue and raclette to learning about the local customs and traditions, every moment was a delightful cultural immersion. The friendly locals were always ready with a smile and eager to share stories about their lives in the mountains. Whether it was a cozy meal in a mountain hut or a lively festival in a village square, the hospitality and warmth of the Swiss people added a special touch to the entire journey.</p>
 </div>
+
+<button class="back-button" on:click={goBack}>Back</button>
