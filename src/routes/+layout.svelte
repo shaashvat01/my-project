@@ -2,6 +2,8 @@
   import { page } from '$app/stores';
 </script>
 
+<!-- check -->
+
 <nav class="navbar w-full bg-white p-4 shadow-md flex justify-center">
 <ul class="nav-links flex space-x-8">
   <li><a href="/" class="nav-link">Home</a></li>
