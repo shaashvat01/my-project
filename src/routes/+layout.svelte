@@ -15,6 +15,7 @@
 </main>
 
 <style>
+
 nav {
   width: 100%;
 }
@@ -34,4 +35,5 @@ nav {
 .nav-link:hover {
   text-decoration: underline;
 }
+
 </style>
