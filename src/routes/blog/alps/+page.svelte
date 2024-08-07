@@ -10,10 +10,6 @@
   }
 </script>
 
-<!-- css -->
-
-<!-- this is the code for test branch -->
- 
 <style>
   .blog-detail {
     max-width: 800px;
