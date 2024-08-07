@@ -10,6 +10,7 @@
   }
 </script>
 
+<!-- css -->
 <style>
   .blog-detail {
     max-width: 800px;
